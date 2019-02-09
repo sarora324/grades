@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
 
     <title>Hello, world!</title>
   </head>
@@ -18,6 +19,11 @@
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+
+          <div class="percentage">
+
+
+          </div>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
@@ -82,9 +88,16 @@
     <table class="table">
     <thead>
     <tr>
-      <th scope="col">
-        <div class="col-md-5 mb-3">
-                <label for="category">Category</label>
+      <th scope="col">Category</th>
+      <th scope="col">Total #</th>
+      <th scope="col">Percentage</th>
+
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <th scope="row">  <div class="col-md-5 mb-3">
+
                 <select class="custom-select d-block w-100" id="category" required="">
                   <option value="">Choose...</option>
                   <option>Exams</option>
@@ -94,25 +107,79 @@
                 <div class="invalid-feedback">
                   Please select a valid category.
                 </div>
-          </div>
-        </th>
-      <th scope="col">Percentage</th>
-
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-      <th scope="row">1</th>
+          </div></th>
       <td>Mark</td>
 
 
     </tr>
     <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
+      <th scope="row">  <div class="col-md-5 mb-3">
+
+                <select class="custom-select d-block w-100" id="category" required="">
+                  <option value="">Choose...</option>
+                  <option>Exams</option>
+                  <option>Quizzes</option>
+                  <option>Homework</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please select a valid category.
+                </div>
+          </div></th>
+      <td>Mark</td>
 
     </tr>
+    <tr>
+      <th scope="row">  <div class="col-md-5 mb-3">
 
+                <select class="custom-select d-block w-100" id="category" required="">
+                  <option value="">Choose...</option>
+                  <option>Exams</option>
+                  <option>Quizzes</option>
+                  <option>Homework</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please select a valid category.
+                </div>
+          </div></th>
+      <td>
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1"></label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="%">
+          </div></td>
+        </form>
+
+    </tr>  <tr>
+        <th scope="row">  <div class="col-md-5 mb-3">
+
+                  <select class="custom-select d-block w-100" id="category" required="">
+                    <option value="">Choose...</option>
+                    <option>Exams</option>
+                    <option>Quizzes</option>
+                    <option>Homework</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please select a valid category.
+                  </div>
+            </div></th>
+        <td>Mark</td>
+
+      </tr>  <tr>
+          <th scope="row">  <div class="col-md-5 mb-3">
+
+                    <select class="custom-select d-block w-100" id="category" required="">
+                      <option value="">Choose...</option>
+                      <option>Exams</option>
+                      <option>Quizzes</option>
+                      <option>Homework</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      Please select a valid category.
+                    </div>
+              </div></th>
+          <td>Mark</td>
+
+        </tr>
     </tr>
     </tbody>
     </table>
