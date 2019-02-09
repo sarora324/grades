@@ -7,64 +7,12 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
 
     <title>Hello, world!</title>
   </head>
 
   <body>
-      <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Dropdown
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-          </div>
-        </nav>
-    <div class="collapse bg-dark" id="navbarHeader">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-8 col-md-7 py-4">
-            <h4 class="text-white">About</h4>
-            <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
-          </div>
-          <div class="col-sm-4 offset-md-1 py-4">
-            <h4 class="text-white">Contact</h4>
-            <ul class="list-unstyled">
-              <li><a href="#" class="text-white">Follow on Twitter</a></li>
-              <li><a href="#" class="text-white">Like on Facebook</a></li>
-              <li><a href="#" class="text-white">Email me</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </header>
 
   <main role="main">
 
@@ -82,9 +30,16 @@
     <table class="table">
     <thead>
     <tr>
-      <th scope="col">
-        <div class="col-md-5 mb-3">
-                <label for="category">Category</label>
+      <th scope="col">Category</th>
+      <th scope="col">Total #</th>
+      <th scope="col">Percentage</th>
+
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <th scope="row">  <div class="col-md-5 mb-3">
+
                 <select class="custom-select d-block w-100" id="category" required="">
                   <option value="">Choose...</option>
                   <option>Exams</option>
@@ -94,25 +49,111 @@
                 <div class="invalid-feedback">
                   Please select a valid category.
                 </div>
-          </div>
-        </th>
-      <th scope="col">Percentage</th>
-
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
+          </div></th>
+      <td>
+         <form>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1"></label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="#">
+                </div></td>
+            </form></td>
 
 
     </tr>
     <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
+      <th scope="row">  <div class="col-md-5 mb-3">
+
+                <select class="custom-select d-block w-100" id="category" required="">
+                  <option value="">Choose...</option>
+                  <option>Exams</option>
+                  <option>Quizzes</option>
+                  <option>Homework</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please select a valid category.
+                </div>
+          </div></th>
+      <td>
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1"></label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="#">
+          </div></td>
+        </form>
+        <td>
+          <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1"></label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="%">
+            </div></td>
+          </form>
+
 
     </tr>
+    <tr>
+      <th scope="row">  <div class="col-md-5 mb-3">
 
+                <select class="custom-select d-block w-100" id="category" required="">
+                  <option value="">Choose...</option>
+                  <option>Exams</option>
+                  <option>Quizzes</option>
+                  <option>Homework</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please select a valid category.
+                </div>
+          </div></th>
+      <td>
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1"></label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="#">
+          </div></td>
+        </form>
+
+    </tr>  <tr>
+        <th scope="row">  <div class="col-md-5 mb-3">
+
+                  <select class="custom-select d-block w-100" id="category" required="">
+                    <option value="">Choose...</option>
+                    <option>Exams</option>
+                    <option>Quizzes</option>
+                    <option>Homework</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please select a valid category.
+                  </div>
+            </div></th>
+        <td>
+          <form>
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1"></label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="#">
+                  </div></td>
+                </form></td>
+
+      </tr>  <tr>
+          <th scope="row">  <div class="col-md-5 mb-3">
+
+                    <select class="custom-select d-block w-100" id="category" required="">
+                      <option value="">Choose...</option>
+                      <option>Exams</option>
+                      <option>Quizzes</option>
+                      <option>Homework</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      Please select a valid category.
+                    </div>
+              </div></th>
+          <td>
+             <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1"></label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="#">
+                    </div></td>
+                  </form></td>
+
+        </tr>
     </tr>
     </tbody>
     </table>
