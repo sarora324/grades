@@ -12,3 +12,6 @@
    color: white;
 
 }
+.table td{
+  vertical-align: middle;
+}
