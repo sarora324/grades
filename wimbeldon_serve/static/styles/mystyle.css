@@ -8,3 +8,13 @@
    font-size: 60px;
    color: white;
 }
+<<<<<<< HEAD:wimbeldon_serve/static/styles/mystyle.css
+=======
+.text-muted {
+   color: white;
+
+}
+.table td{
+  vertical-align: middle;
+}
+>>>>>>> P-H-A-T-style-changes:wimbeldon_serve/templates/mystyle.css
