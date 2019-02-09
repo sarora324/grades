@@ -82,7 +82,20 @@
     <table class="table">
     <thead>
     <tr>
-      <th scope="col">Category</th>
+      <th scope="col">
+        <div class="col-md-5 mb-3">
+                <label for="category">Category</label>
+                <select class="custom-select d-block w-100" id="category" required="">
+                  <option value="">Choose...</option>
+                  <option>Exams</option>
+                  <option>Quizzes</option>
+                  <option>Homework</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please select a valid category.
+                </div>
+          </div>
+        </th>
       <th scope="col">Percentage</th>
 
     </tr>
@@ -91,15 +104,15 @@
     <tr>
       <th scope="row">1</th>
       <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+
+
     </tr>
     <tr>
       <th scope="row">2</th>
       <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-  
+
+    </tr>
+
     </tr>
     </tbody>
     </table>
