@@ -1,3 +1,7 @@
 .form-control {
   width: 100px!important;
 }
+.jumbotron {
+  background-image: linear-gradient(to bottom right, green, yellow);
+}
+e
