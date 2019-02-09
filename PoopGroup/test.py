@@ -1,6 +1,6 @@
 from flask import Flask, request, render_template
 app = Flask(__name__)
 
-@app.route("/")
-def hello():
-    return "<h1>hello</h1>"
+@app.route('/')
+def my_form():
+    return render_template('homepage.html')
