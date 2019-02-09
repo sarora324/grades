@@ -7,13 +7,25 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="static/styles/mystyle.css">
-
-    <title>Hello, world!</title>
+    <link rel="stylesheet" type="text/css" href="../static/styles/mystyle.css">
   </head>
 
   <body>
-
+  <div class="content-section">
+    <form method="POST" action="">
+     {{ form.hidden_tag() }}
+      <fieldset class="form-group">
+        <div class="form-group">
+          {{ form.username.label(class="form-control-label") }}
+          {{ form.username(class="form-control form-control-lg") }}
+        </div>
+        <div class="form-group">
+          {{ form.email.label(class="form-control-label") }}
+          {{ form.email(class="form-control form-control-lg") }}
+        </div>
+      </fieldset>
+    </form>
+  </div>
 
 
     <section class="jumbotron text-center">
