@@ -4,4 +4,11 @@
 .jumbotron {
   background-image: linear-gradient(to bottom right, green, yellow);
 }
-e
+.jumbotron-heading {
+   font-size: 60px;
+   color: white;
+}
+.text-muted {
+   color: white;
+
+}
