@@ -5,6 +5,7 @@ app = Flask(__name__)
 def my_form():
     return render_template('homepage.html')
 
-@app.route('/hello')
-def hello():
-    return 'Hello, World'
+@app.route('/', methods=['POST'])
+def my_form_post():
+    number_assignment = request.form['number_assign']
+    return number_assignment
