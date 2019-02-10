@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../static/styles/mystyle.css">
+
   </head>
 
   <body>
@@ -16,22 +17,38 @@
      {{ form.hidden_tag() }}
       <fieldset class="form-group">
         <div class="form-group">
-          {{ form.username.label(class="form-control-label") }}
-          {{ form.username(class="form-control form-control-lg") }}
+<<<<<<< HEAD
+          {{ form.category(class="form-control form-control-lg") }}
         </div>
         <div class="form-group">
-          {{ form.email.label(class="form-control-label") }}
-          {{ form.email(class="form-control form-control-lg") }}
+          {{ form.percentage(class="form-control form-control-lg") }}
         </div>
+        <div class="form-group">
+          {{ form.numberItems(class="form-control form-control-lg") }}
+        </div>
+
+=======
+          {{ form.username(class="form-control form-control-lg") }}
+        </div>
+>>>>>>> 7d8d0e2952a8ccf85c023e03fdb11f950582e364
       </fieldset>
+      <div class="form-group">
+        {{ form.submit(class="btn btn-outline-info") }}
+      </div>
     </form>
   </div>
+
+<<<<<<< HEAD
+  
+=======
+  <button class="button_boy" onclick="hide()">Click me</button>
+>>>>>>> 7d8d0e2952a8ccf85c023e03fdb11f950582e364
 
 
     <section class="jumbotron text-center">
       <div class="container">
         <h1 class="jumbotron-heading">Stress Calculator</h1>
-        <p class="lead text-muted">Calculates your grades and GPA based on grading criteria.</p>
+        <p class="lead" id="white">Calculates your grades and GPA based on grading criteria.</p>
 
       </div>
     </section>
@@ -61,6 +78,9 @@
                   <option>Exams</option>
                   <option>Quizzes</option>
                   <option>Homework</option>
+                  <option>Projects</option>
+                  <option>Participation</option>
+                  <option>Papers</option>
                 </select>
                 <div class="invalid-feedback">
                   Please select a valid category.
@@ -186,7 +206,10 @@
       <a href="#" class="btn btn-primary my-2">Next</a>
 
     </p>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js" integrity="sha384-vhJnz1OVIdLktyixHY4Uk3OHEwdQqPppqYR8+5mjsauETgLOcEynD9oPHhhz18Nw" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 
+    <!-- Custom JQuery File -->
+    <script src="../static/js/my_javascript.js"></script>
   </body>
 </html>

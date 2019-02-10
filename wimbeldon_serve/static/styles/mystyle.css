@@ -8,10 +8,20 @@
    font-size: 60px;
    color: white;
 }
+<<<<<<< HEAD
+
+#white {
+   color: white;
+=======
 .text-muted {
    color: white;
 
 }
 .table td{
   vertical-align: middle;
+}
+
+#button_boy {
+  background-color: blue;
+>>>>>>> 7d8d0e2952a8ccf85c023e03fdb11f950582e364
 }
