@@ -1,0 +1,25 @@
+.form-control {
+  width: 100px!important;
+}
+.jumbotron {
+  background-image: linear-gradient(to bottom right, green, yellow);
+}
+.jumbotron-heading {
+   font-size: 50px;
+   color: white;
+}
+
+#calculate-button {
+  padding: 10px 20px!important;
+  margin-bottom: 5px!important;
+}
+
+#page_subheading {
+  color: black;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+.form-group {
+  display: inline-block;
+}
